@@ -1,15 +1,11 @@
 #include <iostream>
-
 using namespace std;
-
-int main()
+int main ()
 {
-    int x,y;
-    cout<<"ingresa el primer valor :"<<endl;
-    cin>>x;
-    cout<<"ingresa el segundo valor :"<<endl;
-    cin>>y;
-    float div=x/y;
-    cout<<"la division es:"<<div<<endl;
-    return 0;
+   const float PI=3.1416;
+   float radio;
+   cout<<"ingresa el radio:"<<endl;
+   cin>>radio;
+   cout<<"el area es: " <<endl <<(radio*radio)*PI<<endl;
+   return 0;
 }
