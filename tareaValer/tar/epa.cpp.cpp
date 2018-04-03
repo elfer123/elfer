@@ -12,10 +12,10 @@ int main()
     cout<<"ingresa tu edad :"<<endl;
     cin>>edad;
     if(edad>0 and edad<18){
-        cout<<"tienes :"<<edad<<" años y eres menor de edad"<<endl;
+        cout<<"tienes :"<<edad<<" aÃ±os y eres menor de edad"<<endl;
     }else{
 
-        cout<<"tienes :"<<edad<<" años y eres mayor de edad"<<endl;
+        cout<<"tienes :"<<edad<<" aÃ±os y eres mayor de edad"<<endl;
     }
     //Ejercicio2
 
@@ -50,9 +50,7 @@ int main()
     cout<<"El mayor numero es: "<<mayor<<endl;
     promedio=(a+b+c)/3;
     cout<<"El promedio de los numeros es: "<<promedio<<endl;
-
     //Ejercicio 4
-
     cout<<"ejercicio 4 :"<<endl;
     int d,e;
     cout<<"Ingrese el primer numero: "<<endl;
@@ -84,8 +82,6 @@ int main()
     else{
         cout<<d<<" al cuadrado no tiene como resultado a "<<e<<endl;
     }
-
-
 //Ejercicio5
     cout<<"ejercicio 5 :"<<endl;
     int f;
@@ -97,10 +93,7 @@ int main()
     else{
         cout<<"No es primo"<<endl;
     }
-
-
 }
-
 //Ejercicio6
     cout<<"ejercicio 6 :"<<endl;
     int g,h=2;
